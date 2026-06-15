@@ -1,0 +1,25 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== 运行时生成的产物（每天变化，不入库）=====
+# ===== Generated at runtime (changes daily, not committed) =====
+data/                                   # 净值缓存 / NAV cache
+20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]/     # 按日期归档的输出目录 / date-archived output, e.g. 2026-06-15/
+charts/
+*.html                                  # 生成的交互图（截图用 png 放 docs/）/ generated charts (use png in docs/ for screenshots)
+agent.log
+
+# ===== 含本机特定路径的定时入口（提交 .example 即可）=====
+# ===== Local scheduler launcher with machine-specific paths (commit the .example only) =====
+run_agent.bat
+
+# ===== 编辑器 / 系统 / Editor & OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

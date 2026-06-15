@@ -1,0 +1,8 @@
+# 依赖清单 / Dependencies
+pandas>=2.0
+numpy>=1.24
+plotly>=5.18
+requests>=2.28
+lxml>=4.9          # pandas.read_html 解析东方财富 HTML 需要 / needed by pandas.read_html to parse Eastmoney HTML
+akshare>=1.16      # 可选：真实净值数据源，不装则降级到东方财富/模拟数据
+                   # optional: real NAV source; without it, falls back to Eastmoney/mock data

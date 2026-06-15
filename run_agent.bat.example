@@ -1,0 +1,6 @@
+@echo off
+chcp 65001 >nul
+REM ===== 改成你自己的项目目录与 Python 路径，然后另存为 run_agent.bat =====
+REM ===== Edit to your own project folder and Python path, then save as run_agent.bat =====
+cd /d "C:\path\to\fund-nav-tracker"
+"C:\path\to\python.exe" daily_fund_agent.py >> agent.log 2>&1
