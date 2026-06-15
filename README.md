@@ -26,7 +26,7 @@
 
 ### 📸 预览
 
-> 把你自己跑出来的截图放到 `docs/screenshot.png`，下面这行就会显示出来。
+
 
 ![预览](docs/screenshot.png)
 
@@ -124,7 +124,7 @@ A lightweight tool for personal fund watching: it turns the repetitive chore of 
 
 ### 📸 Preview
 
-> Drop your own screenshot at `docs/screenshot.png` and the line below will render it.
+
 
 ![preview](docs/screenshot.png)
 
